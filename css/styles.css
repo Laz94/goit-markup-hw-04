@@ -214,7 +214,7 @@ display: flex;
 .link {
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -311,8 +311,13 @@ display: flex;
 }
 .hero-index {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px; ;
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/peopleoffice.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 188px; 
+  padding-bottom: 188px;
+
 }
 
 .hero-wrap {
@@ -365,7 +370,7 @@ display: flex;
 .advantages-list {
   margin: 0 auto;
   padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 84px;
   display: flex;
   gap: 24px;
   align-items: center;
@@ -436,9 +441,52 @@ display: flex;
   padding: 32px 16px;
   background-color: #ffffff;
 
+
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+.soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.soc-item {
+  width: 40px ;
+  height: 40px;
+}
+.soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4D5AE5;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svg-icon {fill: white;}
+.soc-link :hover, :focus{
+background-color: #000000;;
+}
+.advantages-kart {
+}
+.advantages-link {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background-color:#F4F4FD ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.link {
+}
+.svg-icon-advantages {
+}
+.link {
 }
 .advantages-punctuality {
 }
@@ -465,6 +513,7 @@ display: flex;
   row-gap: 48px;
 }
 .tools {
+  padding-top: 120px;
   padding-bottom: 120px;
   background-color: white;
 }
@@ -524,12 +573,23 @@ display: flex;
 }
 .page-footer {
   background-color: #2e2f42;
+  display: flex;
+  margin-left: 160px;
+  margin-right: auto;
+  
+  height: 310px;
+  /* margin: 0 auto; */
+  /* width: 1158px; */
+
 }
 .footer-container {
-  align-items: center;
-  margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
+  /* margin: 0 auto */
+  width: 264px;
+height: 110px;
+left: 156px;
+top: 2988px;
 }
 .page-footer-logo {
   font-family: "Raleway", sans-serif;
@@ -551,10 +611,53 @@ display: flex;
   color: #e7e9fc;
   display: flex;
   width: 264px;
-
   left: 155px;
   top: 2435px;
   margin-top: 16px;
+}
+.soc-footer {  
+margin-right: 688px;
+padding-top: 100px;
+padding-bottom: 100px;
+align-items:center ;
+margin: 0 auto;}
+
+.soc-media {
+  /* h3 */
+font-style: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.footer-lincs {
+  /* ul */
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.soc-item-footer {
+  /* li */
+  width: 40px ;
+  height: 40px;
+}
+.soc-link-footer {
+  /* a */
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-icon-footer {
+  /* svg */
+  fill: white;
 }
 .hero-container {
   padding-bottom: 113px;
